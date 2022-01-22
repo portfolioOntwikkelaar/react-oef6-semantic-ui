@@ -15,7 +15,9 @@ class ThemeContextProvider extends React.Component {
     darkTheme: {
       text: '#fff',
       // background: '#5c5c5c'
+      // background: 'linear-gradient(to right, #000000, #434343)'
       background: 'linear-gradient(to right, #000000, #434343)'
+      
     }
   };
 

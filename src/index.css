@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to bottom, #2e262b, #412d3b, #54344c, #673a5e, #7a4172, #864b81, #925591, #9d60a2, #a570b0, #ad81be, #b691cc, #bfa1d9); */
+  background-image: linear-gradient(to right, #302a2d, #4a3943, #644a5c, #7e5b78, #976d96, #a277a5, #ad81b6, #b88cc6, #b990ca, #ba94ce, #bb98d2, #bc9cd6);
 }
 
 .App {
@@ -12,4 +14,24 @@ body {
   top: 20%;
   left: 50%;
   transform: translate(-50%);
+  
+}
+
+.forpdn {
+  margin-top: -3%;
+}
+.formrgn {
+  padding-right: 2%;
+}
+.formrgt{
+  margin-left: 2%;
+}
+
+.btn {
+  border-width: 4px;
+  border-style: solid;
+  border-color: linear-gradient(to right, #373b44, #4286f4);
+  border-radius: 50em;
+border: 4px solid transparent;
+transition: color .2s;
 }

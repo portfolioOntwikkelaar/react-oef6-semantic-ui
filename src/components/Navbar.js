@@ -47,7 +47,7 @@ const Navbar = () => {
   const theme = isDarkTheme ? darkTheme : lightTheme;
   return (
     <nav style={{ background: theme.background, color: theme.text, height: '120px'}}>
-      <h2 style={{textAlign: 'center'}}>Lima Academy</h2>
+      <h2 style={{textAlign: 'center'}}>Blacklist of liars</h2>
       <p onClick={changeAuthStatus} style={{ textAlign: 'center',  }}>{ isLoggedIn ? 'logged in' : 'logged out'}</p>
       
       <div className='ui four buttons'>
