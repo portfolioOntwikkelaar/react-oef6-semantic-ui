@@ -19,7 +19,7 @@ class Navbar extends React.Component {
 
     <nav style={{ background: theme.background, color: theme.text, height: '120px'}}>
       <h2 style={{textAlign: 'center'}}>Lima Academy</h2>
-      <p onClick={changeAuthStatus} style={{ textAlign: 'center' }}>{ isLoggedIn ? 'logged in' : 'logged out'}</p>
+      <p onClick={changeAuthStatus} style={{ textAlign: 'center',  }}>{ isLoggedIn ? 'logged in' : 'logged out'}</p>
       {/* <h2 className='ui centered header'>Lima Academy</h2> */}
       <div className='ui four buttons'>
         
